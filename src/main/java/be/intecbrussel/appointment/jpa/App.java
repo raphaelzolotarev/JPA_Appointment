@@ -22,7 +22,7 @@ public class App {
         System.out.println(appointmentService.add(appointment5));
 
         System.out.println("\n\uD83D\uDD0D SEARCH ALL APPOINTMENTS BY DAY");
-        appointmentService.findByDay(26).forEach(
+        appointmentService.findByDay(25).forEach(
                 appointment -> {
                     System.out.println(appointment+" ✅");
                 }
